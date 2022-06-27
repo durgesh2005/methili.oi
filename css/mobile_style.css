@@ -1,0 +1,167 @@
+@media screen and (max-width:400px) {
+
+    #head {
+        background-position: 70% 50%;
+
+    }
+
+    .currency {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+    
+    #menu {
+        display: block;
+    }
+
+    .head-image {
+        display: none;
+    }
+
+    .head-menu {
+        display: none;
+    }
+
+      nav button {
+          display: block;
+      }
+
+
+    .side-heading {
+        width: 100%;
+        padding:0px;
+        margin: 0px;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 250px;
+    }
+
+    .side-heading h1 {
+        font-size: 50px;
+        width: 80%;
+        color: white;
+    }
+
+    .side-heading p {
+        width: 80%;
+        text-align: center;
+    }
+
+    .side-heading button {
+        text-align: center;
+        width: 80%;
+    }
+
+    .side-image {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 40px;
+        padding: 0px 10px;
+    }
+
+        
+    .side-image .side-content h1 {
+        font-size: 50px;
+    }
+
+
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .content h1 {
+        width: 60%;
+        font-size: 30px;
+    }
+
+    .content button {
+        margin-top: 20px;
+        width: 55%;
+    }
+
+
+    .arrival {
+        margin-top: 100px;
+        padding: 0px;
+    }
+
+    .arrival-content {
+        display: block;
+        width: 100%;
+    }
+
+    .arrival-content img {
+        width: 100%;
+    }
+
+    .arrival-content-text {
+        text-align: center;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .arrival-content-text p {
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+        width: 40%;
+        padding-top: 10px;
+        margin: 0 auto;
+        font-size: 25px;
+    }
+
+    .arrival-content-text h1 {
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .arrival-content img:last-child {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .arrival-content-text h1:last-child {
+        display: none;
+    }
+
+    .arrival-content-text:last-child {
+        display: none;
+    }
+
+
+    .products {
+        margin-top: 50px;
+    }
+
+    .thing {
+        display: block;
+        padding: 0px;
+    }
+
+    .signup {
+        margin-top: 100px;
+        padding: 0px;
+    }
+
+    .signup h1 {
+
+        font-size: 40px;
+        margin: 0px;
+        padding:0px;
+        width: 100%;
+    }
+
+    .signup input {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .signup button {
+        width: 50%;
+        padding: 20px;
+    }
+
+}

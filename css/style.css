@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/************************************************ head id starts here **************************************/
+#head {
+    background-image: url('H:/fashion web design/images/heading1.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px 0px;
+    background-size: cover;
+}
+
+/************************************************ head id starts here **************************************/
+
+
+/************************************************ nav starts here **************************************/
+nav {
+    padding: 0px;
+    color: white;
+    margin: 0px;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+
+nav h1 {
+    letter-spacing: 6px;
+}
+
+
+nav li {
+    list-style: none;
+    float: left;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+.currency select {
+    border-radius: 20px;
+    background: none;
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-top: 10px;
+    padding: 15px 30px;
+    background-color: none;
+    border: none;
+}
+
+.currency option {
+    color: black;
+}
+
+.currency {
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+.head-image {
+    display: inline-block;
+    padding:0px;
+    margin:0px 20px;
+}
+
+
+.head-image img {
+    width:36px;
+    margin-left: 40px;
+    color:white;
+    background-color: none;
+}
+nav button {
+    position: absolute;
+    top: 10px;
+    color: white;
+    display: none;
+    background: none;
+    border: none;
+    right: 20px;
+    font-size: 30px;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    right: 0;
+    display: none;
+    transition: 200ms;
+    opacity: 0.9;
+    background-color: black;
+    color: white;
+    width: 0%;
+}
+
+#menu li {
+    border-bottom: 1px solid white;
+    color:white;
+}
+
+#menu ul {
+    color: white;
+}
+
+#menu li:first-child {
+    border-bottom: none;
+    position: relative;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+/************************************************ nav ends here **************************************/
+
+/********************************************* side-heading starts here ****************************/
+
+.side-heading {
+    width: 40%;
+    float: left;
+    font-size: 35px;
+    margin-left: 80px;
+    margin-top: 170px;
+}
+.side-heading h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.side-heading p {
+    color: rgb(224, 217, 217);
+    font-size: 17px;
+}
+.side-heading button {
+    margin-top: 20px;
+    color:white;
+    border: none;
+    background-color:orange;
+    cursor: pointer;
+    width: 27%;
+    padding:15px;
+}
+
+.side-heading button:hover {
+    background-color: red;
+}
+/********************************************* side-heading ends here ****************************/
+
+
+/************************************************ head id starts here **************************************/
+
+/********************************************* side-image starts here ****************************/
+
+
+.aside {
+    display: block;
+}
+
+
+.side-image {
+    width: 47%;
+    position: relative;
+    margin-right:20px;
+    padding: 0px 20px;
+    margin-left:20px;
+    display: inline-block;
+    margin-top: 90px;
+}
+.side-image img {
+    width: 100%;
+}
+.side-image .side-content {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+}
+.side-image .side-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin:0px;
+    padding:0px 0px 30px;
+    transition: 1s;
+}
+.side-image .side-content button {
+    padding: 15px 20px;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+}
+
+/********************************************* side-image ends here ****************************/
+
+/********************************************* content starts here ****************************/
+ 
+.content {
+   width: 100%;
+   display: block;
+   padding:100px 0px 50px 0px;
+   text-align: center;
+   background-color: rgb(225, 224, 224);
+   margin-top: 100px;
+}
+.content h1 {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+.content button {
+    margin-top: 40px;
+    width: 15%;
+    border: none;
+    background-color:orange;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding:15px;
+}
+
+/********************************************* arrival starts here ****************************/
+
+.arrival {
+    margin-top: 150px;
+    padding:0px 20px;
+}
+
+.arrival-content {
+    display: flex;
+    width: 100%;
+}
+
+.arrival-content img {
+    width: 55%;
+}
+.arrival-content-text {
+    text-align: center;
+    width: 50%;
+ padding-top: 30px;
+}
+.arrival-content-text p {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 20%;
+    padding-top: 10px;
+    margin:0 auto;
+    font-size: 25px;
+}
+.arrival-content-text h1 {
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.arrival-content img:last-child {
+    margin-top: -240px;
+    margin-left: -120px;
+}
+
+/********************************************* arrival ends here ****************************/
+
+/********************************************* product starts here ****************************/
+
+
+.products {
+    width: 100%;
+    margin-top: 150px;
+}
+.products h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.thing {
+    display: grid;
+    padding: 0px 50px;
+    grid-template-areas: 'image1 image1 image1 image2 image2 image2'
+    'image1 image1 image1 image3 image3 image3';
+    
+}
+.thing .image1  {
+    grid-area: image1;
+    position: relative;
+}
+
+.image1 h2 {
+  position: absolute;
+  bottom:0px;
+  right: 50px;
+  font-size: 60px;
+}
+.thing .image1 img {
+    height: 1025px;
+    width:100%;
+}
+
+.thing .image2 {
+    grid-area: image2;
+    position: relative;
+}
+
+.image2 h2 {
+    position: absolute;
+    bottom:30px;
+    font-size:50px;
+    left:70px;
+}
+.thing .image3  {
+    position: relative;
+    grid-area: image3;
+
+}
+.thing img {
+    width: 100%;
+    opacity: 0.6;
+    transition: 500ms;
+    padding:10px;
+}
+
+.thing img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.image3 h2 {
+    position: absolute;
+    bottom:10px;
+    font-size:50px;
+    left:70px;
+}
+
+/********************************************* product ends here ****************************/
+
+/********************************************* signup start here ****************************/
+
+.signup {
+    margin-top: 150px;
+    background-image: url('H:/fashion web design/images/signup.jpg');
+    background-size: cover;
+    padding: 100px;
+        color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.signup h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.signup p {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.signup input {
+    padding:10px;
+    border: none;
+    width: 25%;
+}
+.signup button {
+    border:none;
+    background-color: red;
+    color:white;
+    padding:10px;
+    width: 7%;
+    cursor: pointer;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/logo.png">
+    <title>METHILI - World's Biggest Fashion Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile_style.css">
+</head>
+
+<body>
+    <!--------------------------------------- Header starts here -------------------------------------------->
+    <header id="head">
+        <!-- nav starts here -->
+        <nav>
+            <div class="head-menu">
+            <ul>
+                <li>Shop</li>
+                <li>About</li>
+                <li>Press</li>
+            </ul>
+            </div>
+            <h1>METHILI</h1>
+            <div class="head-image">
+                <div class="currency">
+                    <select id="currency" name="currency">
+                        <option value="Dollar">Dollar</option>
+                        <option value="Rupee">Rupee</option>
+                        <option value="Euro">Euro</option>
+                        <option value="Yan">Yan</option>
+                    </select>
+                </div>
+                <img src="images/search.png" alt="search">
+            </div>
+            <button onclick="nav()">&#9776</button>
+            <div id="menu">
+                <ul>
+                    <li onclick="cross()">&times;</li>
+                    <li>Shop</li>
+                    <li>About</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- nav ends here -->
+        <div class="side-heading">
+            <h1>Minimilist pieces With a Story</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium incidunt molestias nihil numquam
+                necessitatibus officiis consectetur ab rerum perspiciatis.</p>
+            <button>Shop Now</button>
+        </div>
+    </header>
+    <!---------------------------------------- Header ends here -------------------------------------------->
+
+    <!---------------------------------------- Aside starts here -------------------------------------------->
+         <main>
+    <aside class="aside">
+        <div class="side-image">
+            <img src="images/side-image1.jpg" alt="side" onmouseover="nav()">
+            <span class="side-content">
+                <h1 id="jewellery">Jewellery</h1>
+                <button id="button">SHOP JEWELLERY</button>
+            </span>
+        </div>
+        <div class="side-image">
+            <img src="images/side-image4.jpg" alt="side" onmouseover="nav()">
+            <span class="side-content">
+                <h1 id="office">Office Suit</h1>
+                <button>SHOP OFFICE SUIT</button>
+            </span>
+        </div>
+    </aside>
+    <!---------------------------------------- Aside ends here -------------------------------------------->
+
+    <!---------------------------------------- content starts here -------------------------------------------->
+    <div class="content">
+        <h1>We Create Modern Pieces for Womens who are style Conscious and earth Conscious.</h1>
+        <button>Learn More</button>
+    </div>
+    <!---------------------------------------- arrival starts here -------------------------------------------->
+    <div class="arrival">
+        <div class="arrival-content">
+            <img src="images/arrival1.jpg" alt="arrival">
+            <div class="arrival-content-text">
+                <h1>New Arrivals</h1>
+                <p>Shop Now</p>
+            </div>
+        </div>
+        <div class="arrival-content">
+            <div class="arrival-content-text">
+                <h1>Bestsellers</h1>
+                <p>Shop Now</p>
+            </div>
+            <img src="images/arrival2.jpg" alt="arrival2">
+        </div>
+
+        <!---------------------------------------- arrival ends here -------------------------------------------->
+
+        <!---------------------------------------- things starts here -------------------------------------------->
+        <div class="products">
+            <h1>Products</h1>
+            <div class="thing">
+                <div class="image1"><img src="images/thing.jpg" alt="cloth">
+                    <h2>Shirts</h2>
+                </div>
+                <div class="image2"><img src="images/thing1.jpg" alt="cloth">
+                    <h2>Acessories</h2>
+                </div>
+                <div class="image3"><img src="images/thing3.jpg" alt="clothes">
+                    <h2>Travell</h2>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------- things ends here -------------------------------------------->
+   
+
+        <!---------------------------------------- signup start here -------------------------------------------->
+   
+        <div class="signup">
+            <h1>Get access to exclusive discounts and styling tips.</h1>
+            <p>Signup for more  information and products and join over community</p>
+            <input type="email" placeholder="Email Address">
+            <button type="submit">Signup</button>
+        </div>
+    </main>
+</body>
+<script src="js/style.js"></script>
+</html>
